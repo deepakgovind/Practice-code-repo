@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Sukanya41455",
+      "name": "Sukanya Sahoo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54986352?v=4",
+      "profile": "https://www.linkedin.com/in/sukanya-sahoo/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Practice-code-repo",
+  "projectOwner": "Aman1440",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
