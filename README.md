@@ -42,12 +42,12 @@
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/Aman1440/Practice-code-repo?style=for-the-badge
-[contributors-url]: https://github.com/rahulsain3000/Hackerrank_30daysOFcode/graphs/contributors
+[contributors-url]: https://github.com/Aman1440/Practice-code-repo/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Aman1440/Practice-code-repo?color=blue&style=for-the-badge
-[forks-url]: https://github.com/rahulsain3000/Hackerrank_30daysOFcode/network/members
+[forks-url]: https://github.com/Aman1440/Practice-code-repo/network/members
 [stars-shield]:   https://img.shields.io/github/stars/Aman1440/Practice-code-repo?color=red&style=for-the-badge
-[stars-url]: https://github.com/rahulsain3000/Hackerrank_30daysOFcode/stargazers
+[stars-url]: https://github.com/Aman1440/Practice-code-repo/stargazers
 [issues-shield]:  https://img.shields.io/github/issues/Aman1440/Practice-code-repo?color=orange&style=for-the-badge
-[issues-url]: https://github.com/rahulsain3000/Hackerrank_30daysOFcode/issues
+[issues-url]: https://github.com/Aman1440/Practice-code-repo/issues
 
 
