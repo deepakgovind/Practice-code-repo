@@ -1,0 +1,85 @@
+#include<iostream>
+using namespace std;
+
+struct dlnode{
+	struct dlnode* left;
+	int data;
+	struct dlnode* right;
+};
+
+typedef dlnode* dlptr;
+
+void printdl(dlptr P) {
+	if(P==NULL)
+	cout<<endl;
+	else {
+		cout<<P->data<<" ";
+		printdl(P->right);
+	}
+}
+
+void addfront(dlptr &DL,int k)
+{
+	dlptr DL1=new dlnode;
+	DL1->data=k;
+	DL1->left=NULL;DL1->right=NULL;
+	if(DL==NULL)
+	DL=DL1;
+	else
+	{
+		DL->left=DL1;
+		DL1->right=DL;
+		DL=DL1;
+	}
+}
+
+void insert(dlptr &D,int n)
+{
+	dlptr T;
+	T=new(dlnode);
+	T->data=n;
+	T->left=NULL;T->right=NULL;
+	if(D==NULL)
+	D=T;
+	else
+	{
+		dlptr X=D;
+		while(X->right!=NULL)
+		X=X->right;
+		X->right=T;
+		T->left=X;
+	}
+}
+
+void addend(dlptr &D,int k)
+{
+	dlptr DL=new dlnode;
+	DL->data=k;
+	DL->left=NULL;DL->right=NULL;
+	if(D==NULL)
+	D=DL;
+	else
+	{
+		dlptr S=D;
+		while(S->right)
+		S=S->right;
+		S->right=DL;
+		DL->left=S;
+	}
+}
+
+void delfront(dlptr &DL)
+{DL=DL->right;}
+
+void delend(dlptr DL)
+{
+	while(DL->right->right)
+	DL=DL->right;
+}
+
+int main()
+{
+	dlptr DL=NULL;
+	addend(DL,15);addend(DL,20);addfront(DL,10);addfront(DL,5);delfront(DL);
+	printdl(DL);
+}
