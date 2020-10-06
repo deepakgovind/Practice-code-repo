@@ -1,3 +1,8 @@
+//Given an input string s, the code reverses the order of the words.
+//Example, Input: s = "hello world"
+//Output: s = "world hello"
+
+
 class Solution {
 public:
     string reverseWords(string s) {
